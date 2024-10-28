@@ -1,0 +1,53 @@
+body{font family: "Roboto", sans-serif;
+     color: #2c2c2c;
+     background color: #fff; }
+
+a {
+    text-decoration: none;
+}
+ul { list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+button { cursor: pointer;}
+
+.container {max-width: 1280px;
+padding: 0 16px;
+margin: 0 auto;
+}
+.header-container {
+    display: flex;
+}
+
+.header-menu {display: flex;}
+
+
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.nav-link{padding: 28px 0;
+display: block;
+font-size: 14px;
+color: ;
+}
+.nav-link :hover,
+.nav-link :focus{
+    font-weight: 700;
+    text-decoration: underline;
+    color: BBF330;
+}
+.btn-content{
+    font-weight: 500;
+    
+}
