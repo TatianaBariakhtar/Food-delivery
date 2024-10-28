@@ -1,6 +1,6 @@
-body{font family: "Roboto", sans-serif;
+body{font-family: "Roboto", sans-serif;
      color: #2c2c2c;
-     background color: #fff; }
+     background-сolor: #fff; }
 
 a {
     text-decoration: none;
@@ -19,35 +19,94 @@ img {
 }
 button { cursor: pointer;}
 
-.container {max-width: 1280px;
-padding: 0 16px;
-margin: 0 auto;
-}
-.header-container {
-    display: flex;
+.container {
+    max-width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
 }
 
-.header-menu {display: flex;}
-
-
-
-.header-menu{
-    display: flex;
-    align-items: center;
-    gap: 28px;
-}
-.nav-link{padding: 28px 0;
-display: block;
-font-size: 14px;
-color: ;
-}
-.nav-link :hover,
-.nav-link :focus{
-    font-weight: 700;
-    text-decoration: underline;
-    color: BBF330;
-}
 .btn-content{
     font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    min-width: 98px;
+    height: 32px;
+    background: #BBF330;
+    border: none;
+    border-radius: 30px;
     
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-menu{
+    display: flex;
+    gap: 28px;
+}
+
+
+.logo {
+    margin-right: auto;
+}
+
+.header-nav {
+    margin-right: 30px;
+}
+.nav-link { padding: 28px 0;
+display: block;
+font-size: 14px;
+color: #2c2c2c;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    font-weight: 700;
+    text-decoration: underline;
+    color: #BBF330;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 143px;
+}
+.hero { padding-top: 14px;
+        padding-bottom: 69px;}
+
+.hero-text-wrap {
+    min-width: 511px;
+}
+
+.hero-title {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #2c2c2c;
+    margin-bottom: 28px;
+}
+
+.hero-text {
+    line-height: 1.5;
+}
+
+.about { padding-top: 113px;
+    padding-bottom: 124px;
+    background: #ffe550;
+}
+.about-container {display: flex;
+}
+.about-title {
+}
+.about-text {
+}
+.about-list {
+}
+.about-item {
+}
+.about-subtitle {
+}
+.about-description {
+}
+.about-button {
 }
