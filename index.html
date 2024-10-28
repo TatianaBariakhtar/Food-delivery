@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food-delivery</title>
+    <link rel="preconnect" 
+    href="https://fonts.googleapis.com">
+<link rel="preconnect" 
+href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Kalam&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-   <header>
+   <header class="header">
+    <div class="container header-container">
     <a href=""><img src="./images/Vector.svg" alt="Logo company" width="66" height="52"/></a>
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Contact</a></li>
+    <nav class="header-nav">
+        <ul class="header-menu">
+            <li class="header-list"><a href=""><span class="list-second">Home</span></a></li>
+            <li class="header-list"><a href="">About</a></li>
+            <li class="header-list"><a href="">Service</a></li>
+            <li class="header-list"><a href="">Menu</a></li>
+            <li class="header-list"><a href="">Contact</a></li>
         </ul>
     </nav>
-    <button type="button">Order Now</button>
+    <button class="btn-content" type="button">Order Now</button></div>
    </header>
    <main>
+    <!--section1-->
     <section>
-        <h1>Enjoy Your Favorite Food From Anywhere</h1>
+        <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
         <p>With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
         <button type="button">Order Now</button>
         <img src="./images/hero.png" alt="Salad"
