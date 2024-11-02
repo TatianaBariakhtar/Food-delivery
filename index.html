@@ -34,7 +34,7 @@ href="https://fonts.gstatic.com" crossorigin>
         <div class="hero-text-wrap">
         <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
         <p class="hero-text">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
-        <button class="btn-content" type="button">Order Now</button> 
+        <button class="btn-content" type="button" data-modal-open>Order Now</button> 
         </div>
         <img src="./images/hero.png" alt="Salad"
         width="528"
@@ -131,5 +131,31 @@ href="https://fonts.gstatic.com" crossorigin>
     </ul>
     <p>2022 FoodSta. All right reserved.</p>
    </footer>
+   <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>X</button>
+        <p class="modal-title">Order Form</p>
+        <form>
+            <div class="modal-field">
+                <label for="user-name" class="modal-label">Name</label>
+                <input type="text" class="modal-input" placeholder="Your name" id="user-name" name="user-name">
+            </div>
+            <div class="modal-field">
+                <label for="user-phone" class="modal-label">Phone number</label>
+                <input type="tel" class="modal-input" placeholder="+38(0_ _) _ _ _   _ _   _ _" 
+                id="user-phone" 
+                name="user-phone">
+            </div>
+            <div class="modal-field-last">
+                <label for="user-email" class="modal-label">E-mail</label>
+                <input type="email" class="modal-input" placeholder="example@gmail.com" 
+                id="user-email" 
+                name="user-email">
+            </div>
+            <button class="modal-send-btn">Send</button>
+        </form>
+        </div>
+   </div>
+   <script src="./js/modal.js"></script>
 </body>
 </html>
