@@ -214,10 +214,8 @@ margin: 0 auto;
 .about-list {
     min-width: 526px;
 }
+
 .about-title {
-    margin-bottom: 20px;
-}
-.about-subtitle {
 font-size: 42px;
 line-height: 1.2;
 color: #2c2c2c;
